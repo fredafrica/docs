@@ -1,50 +1,48 @@
 # NEO White Paper
 
-## Uma rede distribuída para a Economia Inteligente.
+## Uma rede distribuída para *Smart Economy*.
 
-### Objetivo do projeto NEO: Economia Inteligente
+### Objetivo do projeto NEO: *Smart Economy*
 
-O NEO é o uso da tecnologia blockchain e da identidade digital para digitalizar os ativos, o uso de contratos inteligentes para que os ativos digitais sejam auto-gerenciados, para alcançar uma "economia inteligente" com uma rede distribuída.
+O NEO é um ecosistema digital que utiliza as tecnologias de *blockchain* e de identidade digital a fim de digitalizar e auto-gerenciar ativos do mundo real em uma rede distribuída. 
 
 ### Ativos digitais
 
-Os ativos digitais são ativos programáveis que existem sob a forma de dados eletrônicos. Com a tecnologia blockchain, a digitalização de ativos pode ser descentralizada, confiável, rastreável, altamente transparente e livre de intermediários. Na cadeia de bloqueio NEO, os usuários podem se registrar, trocar e distribuir vários tipos de ativos. E possível provar a conexão entre os recursos físicos e digitais através de uma identidade digital. Os ativos registrados por meio de uma identidade digital validada são protegidos por lei.
+Ativos digitais são ativos programáveis que existem sob a forma de dados eletrônicos. Com a tecnologia *blockchain*, a digitalização de ativos pode ser descentralizada, confiável, rastreável, altamente transparente e livre de intermediários. Na *blockchain* NEO, os usuários podem registrar e transferir vários tipos de ativos. É possível comprovar a relação entre os recursos físicos (no mundo real) e digitais (na rede NEO) ao registrar tais recursos através de uma identidade digital válida, uma vez que os ativos registrados dessa forma são protegidos por lei.
 
-O NEO possui duas formas de ativos digitais: ativos globais e ativos contratuais. Os ativos globais podem ser registrados no espaço do sistema e podem ser identificados por todos os contratos e clientes inteligentes. Os ativos do contrato são registrados na área de armazenamento privado do contrato inteligente e exigem que um cliente compatível os reconheça. Os ativos do contrato podem aderir a determinados padrões, a fim de alcançar a compatibilidade com a maioria dos clientes.
+O NEO possui duas formas de ativos digitais: ativos globais e ativos contratuais. Os ativos globais são registrados publicamente na rede e podem ser identificados por todos *smart contracts* e clientes/usuários. Já os ativos contratuais são registrados de forma privativa no armazenamento do próprio *smart contract*, sendo reconhecíveis apenas dentro do ambiente do contrato em questão, ou seja, apenas para os clientes compatíveis com as normas de tal contrato.
 
 ### Identidade Digital
 
-A identidade digital refere-se à informação da identidade de indivíduos, organizações e outras entidades que existem em formato eletrônico. O sistema de identidade digital mais moderno é baseado no padrão PKI (Public Key Infrastructure) X.509. Na NEO, implementaremos um conjunto de padrões de identidade digital compatíveis com o X.509. Este conjunto de padrões de identidade digital, além do modelo compatível de emissão de certificado de nível X.509, também suportará o modelo de emissão de certificado ponto a ponto da web. Nossa verificação de identidade ao emitir ou usar identidades digitais inclui o uso de reconhecimento faciais, impressões digitais, voz, SMS e outros métodos de autenticação multifacetada. Ao mesmo tempo, também usaremos a cadeia de blocos para substituir o Protocolo de Status de Certificado Online (OCSP) para gerenciar e gravar a Lista de Revogação de Certificado X.509 (CRL).
+Como o nome sugere, identidade digital refere-se às informações de identificação de indivíduos, organizações, entidades, etc, em formato eletrônico. Atualmente o sistema de identidade digital mais moderno e amplamente utilizado no mundo é baseado no padrão PKI (do inglês *Public Key Infrastructure*) x.509. No NEO implementaremos um conjunto de normas de identidade digital compatíveis com o PKI x.509, utilizando a *blockchain* para substituir o Protocolo de Status de Certificado Online (OCSP) no gerenciamento da Lista de Revogação de Certificado (CRL) x.509. O NEO também  terá suporte *point-to-point* ao conceito WoT (do inglês *Web of Trust*). Os mecanismos de verificação e garantia de identidade digital do NEO incluirão reconhecimento facial, reconhecimento de impressões digitais e de voz, SMS, entre outros métodos de autenticação multifacetada.
 
-### Contrato Inteligente
+### *Smart Contracts*
 
-O contrato inteligente foi proposto pela primeira vez pelo criptógrafo Nick Szabo em 1994, apenas cinco anos após a criação da World Wide Web. De acordo com a definição de Szabo: quando uma condição pré-programada é desencadeada, o contrato inteligente executará os termos contratuais correspondentes. A tecnologia Blockchain fornece-nos um sistema descentralizado, inviolável e altamente confiável, no qual os contratos inteligentes são muito úteis. O NEO possui um sistema de contrato inteligente independente: NeoContract.
+O conceito de "contrato inteligente" foi proposto pela primeira vez pelo criptógrafo Nick Szabo em 1994, apenas cinco anos após a criação da World Wide Web. De acordo com a definição de Szabo, *"quando uma condição pré-programada é desencadeada, o contrato inteligente executará os termos contratuais correspondentes"*. A tecnologia de *blockchain* viabiliza um sistema descentralizado, inviolável e altamente confiável, no qual os contratos inteligentes se tornam muito úteis. O NEO possui um sistema de contrato inteligente independente, chamado NeoContract. Para fins de terminologia adequada, seguiremos fazendo uso do termo internacional "*smart contract*" ao invés de "contratos inteligentes".
 
-O sistema de contrato inteligente NeoContract é a maior característica da integração perfeita do ecossistema de desenvolvedores existentes. Os desenvolvedores não precisam aprender uma nova linguagem de programação, mas usam C #, Java e outras linguagens de programação convencionais em seus ambientes familiares IDE (Visual Studio, Eclipse, etc.) para o desenvolvimento, depuração e compilação de contratos inteligentes. A Máquina Virtual Universal Lightweight da NEO, a NeoVM, possui vantagens de alta certidão, alta concorrência e alta escalabilidade. 
+O NeoContract é o grande fator que viabiliza uma integração sólida entre a rede NEO e o ambiente de desenvolvimento do NEO. Os desenvolvedores não precisam aprender uma nova linguagem específica para a programação de *smart contracts*, mas sim, usar C#, Java e outras linguagens convencionais, permitindo que milhões de pessoas em todo o mundo desenvolvam *smart contracts* em seus ambientes IDE familiares (Visual Studio, Eclipse, etc). Aliado a isso, a máquina virtual da NEO, a NeoVM, possui vantagens de precisão, capacidade para grande simultaniedade e alta escalabilidade. O NeoContract terá um *white paper* exclusivo descrevendo os detalhes de sua implementação.
 
-O sistema de contrato inteligente da NeoContract permitirá que milhões de desenvolvedores em todo o mundo desenvolvam rapidamente o desenvolvimento de contratos inteligentes. O NeoContract terá um documento branco separado descrevendo os detalhes da implementação.
+### Software e Ecossistema
 
-### Aplicação e ecossistema
+O ecossistema é a essência da comunidade *open source*. Para alcançar o objetivo de uma rede para a *Smart Economy*, o NEO está comprometido com o desenvolvimento do seu ecossistema, fornecendo ferramentas modernas de desenvolvimento, organizando atividades de educação e treinamento, melhorando a qualidade de sua documentação e fornecendo suporte financeiro aos colaboradores. Planejamos recompensar as melhorias e dar suporte ao trabalho nas seguintes soluções tecnológicas na rede NEO:
 
-O ecossistema é a vitalidade da comunidade de código aberto. Para alcançar o objetivo de uma rede econômica inteligente, a NEO estará comprometida com o desenvolvimento do seu ecossistema, fornecendo ferramentas de desenvolvimento modernos, melhorando o desenvolvimento de documentos, organizando atividades de educação, treinamento e fornecendo suporte financeiro. Planejamos apoiar os seguintes aplicativos e ecologia baseados em NEO e recompensar as melhorias no modelo da experiência:
+🔹 Software de nó  
 
-🔹 Programa de nó  
+•	Um software para PC completo 
 
-•	Um programa de nó completo para PC totalmente operacional
+•	Uma versão "lite" de software para PC, leve e que proporcione melhor experiência ao usuário
 
-•	Um programa de nó de luz para PC com uma melhor experiência ao usuário
+•	Clientes Web/Android/iOS que não precisem sincronizar com a *blockchain*
 
-•	Web / Android / iOS clientes que não precisam sincronizar com a cadeia de blocos
+•	Hardware para carteira de usuário
 
-•	Carteira de Hardware
+🔹 Blockchain Explorer
 
-🔹 Explorador de cadeia Blockchain
+🔹 Kit para Desenvolvimento de Software (SDK)
 
-🔹 Kit SDK de Desenvolvimento 
+•	Suporte às linguagens Java/Kotlin, .NET C#/VB, JavaScript/Typescript, Python, Go
 
-•	Suporte Java / Kotlin, .NET C # / VB, JavaScript / Typescript, Python, Go
-
-🔹 Compilador de Contratos Inteligentes e Plugin ID
+🔹 Compilador de *Smart Contracts* e Plugin IDE
 
 •	C# / VB.Net / F#, Studio Visual
 
@@ -56,25 +54,25 @@ O ecossistema é a vitalidade da comunidade de código aberto. Para alcançar o 
 
 •	Python / Ruby
 
-🔹 Aplicações Decentralizadas
+🔹 dApps ( Aplicações Descentralizadas )
 
-•	Fundo inteligente
+•	*Smart fund* - Fundo financeiro inteligente
 
-•	Contrato-inteligente com assistência IA
+•	*Smart contracts* assistidos por IA
 
-•	Network social
+•	Rede Social
 
-•	Provedores de tokens automáticos de liquidez.
+•	Provedores de tokens automáticos de liquidez
 
-•	Intercambio decentralizado.
+•	Intercâmbio descentralizado
 
-•	Protocolo de comunicação segura.
+•	Protocolo de comunicação segura
 
-•	Mercado de intercambio de dados.
+•	Mercado de intercâmbio de dados
 
-•	Mercado de intercambio de propriedade intelectual
+•	Mercado de intercâmbio de propriedade intelectual
 
-•	Previsão do mercado
+•	Previsão de mercado
 
 •	Mercado de publicidade
 
@@ -86,21 +84,21 @@ O ecossistema é a vitalidade da comunidade de código aberto. Para alcançar o 
 
 ### Modelo econômico
 
-NEO tem dois tokens nativos, NEO (símbolo abreviado NEO) e NeoGas (símbolo abreviado GAS).
+O ecossistema NEO possui dois tokens nativos: NEO e NeoGas (abreviado a GAS).
 
-NEO, com um total de 100 milhões de tokens, representa o direito de gerenciar a rede. Os direitos de gerenciamento incluem a votação para a contabilidade, as mudanças nos parâmetros da rede NEO e assim por diante. A unidade mínima de NEO é 1 e os tokens não podem ser subdivididos.
+O NEO é limitado em um máximo de 100 milhões de tokens disponíveis e representa o direito de participar no gerenciamento da rede, como em votações para definições e mudanças de parâmetros da rede, e assim por diante. A unidade mínima de NEO é 1 e os tokens não podem ser subdivididos.
 
-O GAS é o token de combustível para a realização do controle de recursos da rede NEO, com um limite máximo total de 100 milhões. A rede NEO é cobrada pela operação e armazenamento de tokens e contratos inteligentes, criando incentivos econômicos para contadores de livros e impedindo o abuso de recursos. A unidade mínima de GAS é 0,00000001.
+O GAS, com limite máximo total de 100 milhões, é o token com papel de alimentação da rede, utilizado no controle de recursos da mesma. A rede NEO cobra GAS pelas operações e armazenamento de tokens e *smart contracts*, assim gerando incentivos para os Nós de Consenso e impedindo o abuso de recursos. A unidade mínima de GAS é 0,00000001.
 
-No bloco gênese da rede NEO, 100 milhões de NEOs são gerados, o GAS ainda não foi gerado. 100 milhões de GAS, correspondentes aos 100 milhões de NEO, serão gerados através de um algoritmo de decaimento em cerca de 22 anos para abordar o NEO. Se o NEO for transferido para um novo endereço, o GAS subsequentemente gerado será creditado ao novo endereço.
+No bloco gênese da rede NEO, 100 milhões de NEOs foram gerados, porém nenhum GAS. 100 milhões de GAS, correspondentes aos 100 milhões de NEO, serão gerados através de um algoritmo de decaimento por um período de aproximadamente 22 anos. Quando NEO é transferido para um novo endereço, o GAS subsequentemente gerado por esse NEO será creditado ao novo endereço.
 
-A rede NEO estabelecerá um limite ao votar para isentar o GAS de uma certa quantidade de transações de transferências e operações de contratos inteligentes para melhorar a experiência do usuário. Quando ocorre uma grande quantidade de transações de spam, o NeoID pode ser usado para priorizar transações e contratos inteligentes com identidades qualificadas. Transações e contratos inteligentes sem identidades digitais qualificadas podem ser priorizados ao pagar o GAS.
+Será estabelecido através de votação um limiar para isentar o GAS de certa quantidade de transações, como transferências e operações de *smart contracts*, a fim de incentivar e melhorar a experiência de novos usuários. Quando uma grande quantidade de transações *spam* ocorrer, o NeoID será usado para priorizar transações e *smart contracts* com identidades digitais qualificadas. Transações e *smart contracts* sem identidades qualificadas podem ser priorizados através do pagamento de um valor em GAS.
 
 ### Mecanismo de Distribuição
 
 Distribuição NEO:
 
-Os 100 milhões de tokens da NEO são divididos em duas partes. A primeira parcela é de 50 milhões de tokens distribuídos proporcionalmente aos apoiadores da NEO durante o financiamento colaborativo. Esta parcela já foi distribuída.
+Os 100 milhões de tokens NEO serão divididos em duas partes. A primeira parcela é de 50 milhões de tokens distribuídos proporcionalmente aos apoiadores da NEO durante o financiamento colaborativo. Esta parcela já foi distribuída.
 
 A segunda parcela é de 50 milhões de NEOs administrados pelo Conselho NEO para apoiar o desenvolvimento, operação e manutenção a longo prazo da NEO e seu ecossistema. A NEO nesta parcela tem um período de bloqueio de 1 ano e é desbloqueado somente após 16 de outubro de 2017. Essa parcela não entrará nas bolsas e é apenas para suporte a longo prazo dos projetos da NEO. Para isso os planos são os seguintes:
 
